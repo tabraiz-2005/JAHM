@@ -1,0 +1,17 @@
+# dependencies & builds
+node_modules/
+.next/
+venv/
+__pycache__/
+*.tsbuildinfo
+
+# secrets / local settings
+.env.local
+.env
+
+# local data (orders, uploads)
+backend/data/db.json
+backend/uploads/
+
+# mac
+.DS_Store

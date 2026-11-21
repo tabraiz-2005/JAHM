@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "autoplaySeconds": 6,
+    "slides": [
+      {
+        "image": "/products/koi-pond-deck.jpg",
+        "eyebrow": "New collection · Hand-painted",
+        "title": "Art you can",
+        "highlight": "live with.",
+        "subtitle": "Lanterns, art decks, trays and planters, each painted brushstroke by brushstroke. No prints, no copies. When a piece is gone, it's gone.",
+        "productSlug": "koi-pond-deck",
+        "ctaLabel": "Shop the collection",
+        "ctaHref": "/shop"
+      },
+      {
+        "image": "/products/lavender-hurricane-lantern.jpg",
+        "eyebrow": "The Lantern Edit",
+        "title": "Light,",
+        "highlight": "hand-painted.",
+        "subtitle": "Vintage lanterns reborn with lavender, butterflies and real gold leaf. Soft light for slow evenings.",
+        "productSlug": "lavender-hurricane-lantern",
+        "ctaLabel": "Shop lanterns",
+        "ctaHref": "/shop?category=lanterns"
+      },
+      {
+        "image": "/products/afternoon-tea-tray.jpg",
+        "eyebrow": "Art Trays",
+        "title": "Serve something",
+        "highlight": "beautiful.",
+        "subtitle": "Illustrated trays you'll want to use every day for chai, desserts and your vanity, or simply to hang on the wall.",
+        "productSlug": "afternoon-tea-tray",
+        "ctaLabel": "Shop trays",
+        "ctaHref": "/shop?category=trays"
+      },
+      {
+        "image": "/products/hibiscus-skull-deck.jpg",
+        "eyebrow": "Art Decks",
+        "title": "One piece.",
+        "highlight": "One owner.",
+        "subtitle": "Skateboard decks painted as statement wall art, made for bedrooms, studios and cafés with attitude.",
+        "productSlug": "hibiscus-skull-deck",
+        "ctaLabel": "Shop art decks",
+        "ctaHref": "/shop?category=art-decks"
+      }
+    ]
+  },
+  "categoryImages": {
+    "art-decks": "/products/koi-pond-deck.jpg",
+    "lanterns": "/products/lavender-hurricane-lantern.jpg",
+    "trays": "/products/afternoon-tea-tray.jpg",
+    "planters": "/products/noir-gilded-planter.jpg"
+  },
+  "sections": {
+    "bannerImage": "/products/hibiscus-skull-deck.jpg",
+    "customOrderImage": "/products/afternoon-tea-tray.jpg"
+  }
+}

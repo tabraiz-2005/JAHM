@@ -1,0 +1,50 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "image": "/products/koi-pond-deck.jpg",
+        "eyebrow": "New collection · Hand-painted",
+        "title": "Art you can",
+        "highlight": "live",
+        "titleEnd": "with.",
+        "subtitle": "Lanterns, art decks, trays and planters, each painted brushstroke by brushstroke. No prints, no copies. When a piece is gone, it's gone.",
+        "productSlug": "koi-pond-deck"
+      },
+      {
+        "image": "/products/lavender-hurricane-lantern.jpg",
+        "eyebrow": "The lantern edit",
+        "title": "Light that",
+        "highlight": "blooms",
+        "titleEnd": "softly.",
+        "subtitle": "Vintage lanterns reborn with hand-painted lavender, butterflies and real gold leaf. Made for slow evenings and thoughtful gifts.",
+        "productSlug": "lavender-hurricane-lantern"
+      },
+      {
+        "image": "/products/afternoon-tea-tray.jpg",
+        "eyebrow": "Art trays",
+        "title": "Serve it.",
+        "highlight": "Style",
+        "titleEnd": "it. Hang it.",
+        "subtitle": "Illustrated trays that turn chai time into a little celebration, and look just as good on your wall.",
+        "productSlug": "afternoon-tea-tray"
+      }
+    ],
+    "sideImages": ["/products/hibiscus-skull-deck.jpg", "/products/noir-gilded-planter.jpg"]
+  },
+  "categories": {
+    "art-decks": "/products/koi-pond-deck.jpg",
+    "lanterns": "/products/lavender-hurricane-lantern.jpg",
+    "trays": "/products/afternoon-tea-tray.jpg",
+    "planters": "/products/noir-gilded-planter.jpg"
+  },
+  "banner": {
+    "image": "/products/hibiscus-skull-deck.jpg",
+    "eyebrow": "The Launch Edit",
+    "title": "One piece. One owner.",
+    "titleItalic": "Forever yours.",
+    "subtitle": "We never repeat a design exactly. When you buy from JAHM you own something no one else has, wrapped by hand and delivered to your door."
+  },
+  "customOrders": {
+    "image": "/products/afternoon-tea-tray.jpg"
+  }
+}

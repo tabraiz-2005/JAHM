@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Jost:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; }
+  body { @apply bg-cream font-sans text-ink antialiased; }
+  h1, h2, h3, h4 { @apply font-serif; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-5 md:px-8; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3 text-sm font-medium uppercase tracking-[0.14em] transition duration-300; }
+  .btn-primary { @apply btn bg-rose text-white shadow-soft hover:bg-rose-dark hover:-translate-y-0.5; }
+  .btn-outline { @apply btn border border-rose text-rose hover:bg-rose hover:text-white; }
+  .btn-light { @apply btn bg-white text-rose hover:bg-blush; }
+  .eyebrow { @apply text-xs font-medium uppercase tracking-[0.3em] text-rose; }
+  .section-title { @apply font-serif text-4xl font-medium text-plum md:text-5xl; }
+  .input { @apply w-full rounded-xl border border-blush-deep bg-white px-4 py-3 text-sm outline-none transition focus:border-rose focus:ring-2 focus:ring-rose/20; }
+  .label { @apply mb-1.5 block text-xs font-medium uppercase tracking-wider text-plum/70; }
+  .card { @apply rounded-2xl bg-white shadow-soft; }
+}
+
+.fade-up { animation: fadeUp 0.9s ease both; }
+.fade-up-2 { animation: fadeUp 0.9s 0.15s ease both; }
+.fade-up-3 { animation: fadeUp 0.9s 0.3s ease both; }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+
+.marquee { animation: marquee 28s linear infinite; }
+@keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.img-zoom img { transition: transform 0.9s cubic-bezier(0.2, 0.7, 0.2, 1); }
+.img-zoom:hover img { transform: scale(1.06); }
+
+/* ---------- Hero ---------- */
+.kenburns { animation: kenburns var(--hero-dur, 6s) ease-out both; }
+@keyframes kenburns { from { transform: scale(1.14) translate(1%, 1%); } to { transform: scale(1) translate(0, 0); } }
+.hero-progress { animation: heroProgress var(--hero-dur, 6s) linear both; }
+@keyframes heroProgress { from { width: 0%; } to { width: 100%; } }
+.paused .kenburns, .paused .hero-progress { animation-play-state: paused; }
+.spin-slow { animation: spin 18s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+.float-y { animation: floatY 5s ease-in-out infinite; }
+@keyframes floatY { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+.ribbon:hover .marquee { animation-play-state: paused; }
+.text-outline { -webkit-text-stroke: 1px rgba(255, 255, 255, 0.08); color: transparent; }
