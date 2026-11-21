@@ -3,7 +3,7 @@
     "autoplaySeconds": 6,
     "slides": [
       {
-        "image": "/products/koi-pond-deck.jpg",
+        "image": "/uploads/c5c7ba25e537.png",
         "eyebrow": "New collection · Hand-painted",
         "title": "Art you can",
         "highlight": "live with.",
@@ -13,7 +13,7 @@
         "ctaHref": "/shop"
       },
       {
-        "image": "/products/lavender-hurricane-lantern.jpg",
+        "image": "/uploads/0791bbe7c72c.png",
         "eyebrow": "The Lantern Edit",
         "title": "Light,",
         "highlight": "hand-painted.",
@@ -23,7 +23,7 @@
         "ctaHref": "/shop?category=lanterns"
       },
       {
-        "image": "/products/afternoon-tea-tray.jpg",
+        "image": "/uploads/67e551698013.png",
         "eyebrow": "Art Trays",
         "title": "Serve something",
         "highlight": "beautiful.",
@@ -33,7 +33,7 @@
         "ctaHref": "/shop?category=trays"
       },
       {
-        "image": "/products/hibiscus-skull-deck.jpg",
+        "image": "/uploads/ff6d62b93e76.png",
         "eyebrow": "Art Decks",
         "title": "One piece.",
         "highlight": "One owner.",
@@ -45,13 +45,13 @@
     ]
   },
   "categoryImages": {
-    "art-decks": "/products/koi-pond-deck.jpg",
-    "lanterns": "/products/lavender-hurricane-lantern.jpg",
-    "trays": "/products/afternoon-tea-tray.jpg",
-    "planters": "/products/noir-gilded-planter.jpg"
+    "art-decks": "/uploads/ed8c74fc06d1.png",
+    "lanterns": "/uploads/5bd39b60b70e.png",
+    "trays": "/uploads/d74aee41e2cf.png",
+    "planters": "/uploads/5b522df1f00e.png"
   },
   "sections": {
-    "bannerImage": "/products/hibiscus-skull-deck.jpg",
-    "customOrderImage": "/products/afternoon-tea-tray.jpg"
+    "bannerImage": "/uploads/4123ce6afc41.png",
+    "customOrderImage": "/uploads/1696d852f200.png"
   }
 }
